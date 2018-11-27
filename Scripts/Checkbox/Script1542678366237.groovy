@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
-
+//Test
 '1. Go to [Checkbox Demo] Screen'
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test/basic-checkbox-demo.html')
 
