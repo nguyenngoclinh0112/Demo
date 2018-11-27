@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo Suite" time="92" tests="2" failures="0" errors="0">
+   <testsuite name="Demo Suite" tests="2" failures="0" errors="0" time="92" timestamp="2018-11-16 03:14:58" hostname="linhnguyen - LINHNGUYEN.vodc.lan" id="Test Suites/Demo Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\linhnguyen\\Katalon Studio\\Demo\\Reports\\Demo Suite\\20181116_031456"/>
+         <property name="logFiles" value="C:\\Users\\linhnguyen\\Katalon Studio\\Demo\\Reports\\Demo Suite\\20181116_031456\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="linhnguyen - LINHNGUYEN.vodc.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="10.10.10.63"/>
+         <property name="sessionId" value="076c7e07-54f9-4ad2-899e-512e9b1da22e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Alert" classname="Test Cases/Alert" status="PASSED">
+         <system-out><![CDATA[2018-11-16 03:14:58 - [TEST_CASE][PASSED] - Test Cases/Alert: Test Cases/Alert
+
+2018-11-16 03:14:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-16 03:15:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-16 03:15:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.seleniumeasy.com/test/javascript-alert-box-demo.html' successfully
+
+2018-11-16 03:15:07 - [MESSAGE][PASSED] - Navigate to 'https://www.seleniumeasy.com/test/javascript-alert-box-demo.html' successfully
+
+2018-11-16 03:15:07 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/SelEasy/Logo' is visible
+
+2018-11-16 03:15:07 - [MESSAGE][PASSED] - Object 'Object Repository/SelEasy/Logo' is visible
+
+2018-11-16 03:15:07 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-16 03:15:07 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-16 03:15:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 03:15:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 03:15:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SelEasy/Click me' is clicked on
+
+2018-11-16 03:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/SelEasy/Click me' is clicked on
+
+2018-11-16 03:15:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 03:15:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 03:15:12 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-11-16 03:15:12 - [TEST_STEP][PASSED] - Statement - alertText = driver.switchTo().alert().getText(): null
+
+2018-11-16 03:15:12 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Press a button!' and expected text 'Press a button!' are matched 
+
+2018-11-16 03:15:12 - [MESSAGE][PASSED] - Actual text 'Press a button!' and expected text 'Press a button!' are matched 
+
+2018-11-16 03:15:12 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-11-16 03:15:12 - [MESSAGE][PASSED] - Alert accepted
+
+2018-11-16 03:15:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/SelEasy/Confirm Demo' are matched.
+
+2018-11-16 03:15:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SelEasy/Confirm Demo' are matched.
+
+2018-11-16 03:15:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 03:15:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 03:15:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SelEasy/Click me' is clicked on
+
+2018-11-16 03:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/SelEasy/Click me' is clicked on
+
+2018-11-16 03:15:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 03:15:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 03:15:17 - [TEST_STEP][PASSED] - dismissAlert: Alert dismissed
+
+2018-11-16 03:15:17 - [MESSAGE][PASSED] - Alert dismissed
+
+2018-11-16 03:15:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/SelEasy/Confirm Demo' are matched.
+
+2018-11-16 03:15:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SelEasy/Confirm Demo' are matched.
+
+2018-11-16 03:15:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 03:15:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 03:15:19 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/SelEasy/Prompt Box Button' successfully
+
+2018-11-16 03:15:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/SelEasy/Prompt Box Button' successfully
+
+2018-11-16 03:15:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/SelEasy/Prompt Box Button' is clicked on
+
+2018-11-16 03:15:19 - [MESSAGE][PASSED] - Object: 'Object Repository/SelEasy/Prompt Box Button' is clicked on
+
+2018-11-16 03:15:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 03:15:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 03:15:21 - [TEST_STEP][PASSED] - setAlertText: Set alert text 'Linh Test 123456' successfully
+
+2018-11-16 03:15:21 - [MESSAGE][PASSED] - Set alert text 'Linh Test 123456' successfully
+
+2018-11-16 03:15:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-16 03:15:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-16 03:15:23 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-11-16 03:15:23 - [MESSAGE][PASSED] - Alert accepted
+
+2018-11-16 03:15:23 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/SelEasy/Prompt Box Button' successfully
+
+2018-11-16 03:15:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/SelEasy/Prompt Box Button' successfully
+
+2018-11-16 03:15:23 - [TEST_STEP][PASSED] - Statement - Result = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["You have entered '", String_Input, "' !"], STOP_ON_FAILURE): Concatenated string array: '['You have entered '','Linh Test 123456','' !']' into 'You have entered 'Linh Test 123456' !'
+
+2018-11-16 03:15:23 - [MESSAGE][PASSED] - Concatenated string array: '['You have entered '','Linh Test 123456','' !']' into 'You have entered 'Linh Test 123456' !'
+
+2018-11-16 03:15:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/SelEasy/Prompt Demo Result' are matched.
+
+2018-11-16 03:15:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SelEasy/Prompt Demo Result' are matched.
+
+2018-11-16 03:15:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-16 03:15:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Text" classname="Test Cases/Text" status="PASSED">
+         <system-out><![CDATA[2018-11-16 03:15:24 - [TEST_CASE][PASSED] - Test Cases/Text: Test Cases/Text
+
+2018-11-16 03:15:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-16 03:15:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-16 03:15:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.seleniumeasy.com/test/basic-first-form-demo.html' successfully
+
+2018-11-16 03:15:32 - [MESSAGE][PASSED] - Navigate to 'https://www.seleniumeasy.com/test/basic-first-form-demo.html' successfully
+
+2018-11-16 03:15:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/SelEasy/Text' is visible
+
+2018-11-16 03:15:32 - [MESSAGE][PASSED] - Object 'Object Repository/SelEasy/Text' is visible
+
+2018-11-16 03:15:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/SelEasy/Text' are matched.
+
+2018-11-16 03:15:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SelEasy/Text' are matched.
+
+2018-11-16 03:15:32 - [TEST_STEP][PASSED] - com.database.DemoMySql.connectDB: com.database.DemoMySql.connectDB is PASSED
+
+2018-11-16 03:16:27 - [MESSAGE][PASSED] - com.database.DemoMySql.connectDB is PASSED
+
+2018-11-16 03:16:27 - [TEST_STEP][PASSED] - Statement - queryResult = CustomKeywords.com.database.DemoMySql.executeQuery("SELECT Description FROM Static_Content"): com.database.DemoMySql.executeQuery is PASSED
+
+2018-11-16 03:16:28 - [MESSAGE][PASSED] - com.database.DemoMySql.executeQuery is PASSED
+
+2018-11-16 03:16:28 - [TEST_STEP][PASSED] - Statement - queryResult.next(): null
+
+2018-11-16 03:16:28 - [TEST_STEP][PASSED] - Statement - valueFromDatabase = queryResult.getString(1): null
+
+2018-11-16 03:16:28 - [TEST_STEP][PASSED] - Statement - println(valueFromDatabase): null
+
+2018-11-16 03:16:28 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'This would be your first example to start with Selenium.' and expected text 'This would be your first example to start with Selenium.' are matched 
+
+2018-11-16 03:16:28 - [MESSAGE][PASSED] - Actual text 'This would be your first example to start with Selenium.' and expected text 'This would be your first example to start with Selenium.' are matched 
+
+2018-11-16 03:16:28 - [TEST_STEP][PASSED] - com.database.DemoMySql.closeDatabaseConnection: com.database.DemoMySql.closeDatabaseConnection is PASSED
+
+2018-11-16 03:16:28 - [MESSAGE][PASSED] - com.database.DemoMySql.closeDatabaseConnection is PASSED
+
+2018-11-16 03:16:28 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/SelEasy/GET): Finding Test Object with id 'Object Repository/SelEasy/GET'
+
+2018-11-16 03:16:28 - [TEST_STEP][PASSED] - Statement - params = new java.util.ArrayList(): null
+
+2018-11-16 03:16:28 - [TEST_STEP][PASSED] - Statement - params.add(new com.kms.katalon.core.testobject.TestObjectProperty(upc, com.kms.katalon.core.testobject.ConditionType.EQUALS, 22369700000)): null
+
+2018-11-16 03:16:28 - [TEST_STEP][PASSED] - Statement - response.setRestParameters(params): null
+
+2018-11-16 03:16:28 - [TEST_STEP][PASSED] - Statement - headerparams = new java.util.ArrayList(): null
+
+2018-11-16 03:16:28 - [TEST_STEP][PASSED] - Statement - headerparams.add(new com.kms.katalon.core.testobject.TestObjectProperty(apikey, com.kms.katalon.core.testobject.ConditionType.EQUALS, l7xxad8578ca824c49d998247d31d4efabfb)): null
+
+2018-11-16 03:16:28 - [TEST_STEP][PASSED] - Statement - response.setHttpHeaderProperties(headerparams): null
+
+2018-11-16 03:16:28 - [TEST_STEP][PASSED] - Statement - result = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(response): Send request successfully
+
+2018-11-16 03:16:30 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-16 03:16:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-11-16 03:16:30 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-16 03:14:58 - [TEST_SUITE][PASSED] - Demo Suite: Test Cases/Text]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

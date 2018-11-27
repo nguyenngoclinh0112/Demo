@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Text</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2bd9ea7-c146-4fb2-a4c9-99924b2ee2be</testCaseGuid>
+   <variable>
+      <defaultValue>'This would be your first example to start with Selenium.'</defaultValue>
+      <description></description>
+      <id>a0e90f07-22a5-4d36-82cc-11cc10f78d9f</id>
+      <masked>false</masked>
+      <name>TextVar</name>
+   </variable>
+   <variable>
+      <defaultValue>'SELECT Description FROM Static_Content'</defaultValue>
+      <description></description>
+      <id>dcbb3b60-3e81-4fde-b17e-a4397f7b8873</id>
+      <masked>false</masked>
+      <name>SQLStatement</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://www.seleniumeasy.com/test/basic-first-form-demo.html'</defaultValue>
+      <description></description>
+      <id>ab0f4be3-8a58-492b-9330-36cc00d14579</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

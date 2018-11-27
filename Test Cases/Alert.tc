@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Alert</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe8660af-b0ec-4077-8ee5-09fdf9669bb9</testCaseGuid>
+   <variable>
+      <defaultValue>'Linh Test 123456'</defaultValue>
+      <description></description>
+      <id>1705e082-a2b6-4742-ba6e-31388489aa60</id>
+      <masked>false</masked>
+      <name>String_Input</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://www.seleniumeasy.com/test/javascript-alert-box-demo.html'</defaultValue>
+      <description></description>
+      <id>a5fc7af3-3a75-4689-96bf-31378a5eaef2</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

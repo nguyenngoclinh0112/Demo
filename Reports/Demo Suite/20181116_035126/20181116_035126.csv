@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demo Suite,Firefox 56.0,,2018-11-16 03:51:27,2018-11-16 03:52:17,49.846s,PASSED
+,,,,,,
+Test Cases/Alert,Firefox 56.0,,2018-11-16 03:51:28,2018-11-16 03:51:57,29.542s,PASSED
+openBrowser,Firefox 56.0,,2018-11-16 03:51:28,2018-11-16 03:51:35,7.060s,PASSED
+navigateToUrl,Firefox 56.0,1. Go to Alert Demo Screen,2018-11-16 03:51:35,2018-11-16 03:51:40,5.161s,PASSED
+waitForElementVisible,Firefox 56.0,,2018-11-16 03:51:40,2018-11-16 03:51:41,0.136s,PASSED
+maximizeWindow,Firefox 56.0,,2018-11-16 03:51:41,2018-11-16 03:51:41,0.035s,PASSED
+delay,Firefox 56.0,,2018-11-16 03:51:41,2018-11-16 03:51:43,2.030s,PASSED
+click,Firefox 56.0,2. Click on the second [Click me!] button,2018-11-16 03:51:43,2018-11-16 03:51:43,0.209s,PASSED
+delay,Firefox 56.0,,2018-11-16 03:51:43,2018-11-16 03:51:45,2.003s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 56.0,3.1. Option2 - Getting the text from the alert and storing it in Variable,2018-11-16 03:51:45,2018-11-16 03:51:45,0.010s,PASSED
+Statement - alertText = driver.switchTo().alert().getText(),Firefox 56.0,,2018-11-16 03:51:45,2018-11-16 03:51:45,0.076s,PASSED
+verifyMatch,Firefox 56.0,3.2. Verify Alert Text,2018-11-16 03:51:45,2018-11-16 03:51:45,0.009s,PASSED
+acceptAlert,Firefox 56.0,4. Click on [OK] from Alert,2018-11-16 03:51:45,2018-11-16 03:51:45,0.084s,PASSED
+verifyElementText,Firefox 56.0,5. Verify you clicked on [OK],2018-11-16 03:51:45,2018-11-16 03:51:45,0.078s,PASSED
+delay,Firefox 56.0,,2018-11-16 03:51:45,2018-11-16 03:51:48,3.001s,PASSED
+click,Firefox 56.0,6. Click on the second [Click me!] button,2018-11-16 03:51:48,2018-11-16 03:51:48,0.150s,PASSED
+delay,Firefox 56.0,,2018-11-16 03:51:48,2018-11-16 03:51:50,2.003s,PASSED
+dismissAlert,Firefox 56.0,7. Click on [Cancel] from Alert,2018-11-16 03:51:50,2018-11-16 03:51:50,0.087s,PASSED
+verifyElementText,Firefox 56.0,8. Verify you clicked on [Cancel],2018-11-16 03:51:50,2018-11-16 03:51:50,0.039s,PASSED
+delay,Firefox 56.0,,2018-11-16 03:51:50,2018-11-16 03:51:52,2.000s,PASSED
+scrollToElement,Firefox 56.0,,2018-11-16 03:51:52,2018-11-16 03:51:52,0.083s,PASSED
+click,Firefox 56.0,9. Click on [Click for Prompt Box] button,2018-11-16 03:51:52,2018-11-16 03:51:53,0.156s,PASSED
+delay,Firefox 56.0,,2018-11-16 03:51:53,2018-11-16 03:51:55,2.001s,PASSED
+setAlertText,Firefox 56.0,,2018-11-16 03:51:55,2018-11-16 03:51:55,0.068s,PASSED
+delay,Firefox 56.0,,2018-11-16 03:51:55,2018-11-16 03:51:57,2.003s,PASSED
+acceptAlert,Firefox 56.0,10. Input text into prompt popup - Linh Test,2018-11-16 03:51:57,2018-11-16 03:51:57,0.091s,PASSED
+scrollToElement,Firefox 56.0,,2018-11-16 03:51:57,2018-11-16 03:51:57,0.054s,PASSED
+"Statement - Result = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([""You have entered '"", String_Input, ""' !""], STOP_ON_FAILURE)",Firefox 56.0,11. Verify inputted text,2018-11-16 03:51:57,2018-11-16 03:51:57,0.010s,PASSED
+verifyElementText,Firefox 56.0,,2018-11-16 03:51:57,2018-11-16 03:51:57,0.063s,PASSED
+closeBrowser,Firefox 56.0,,2018-11-16 03:51:57,2018-11-16 03:51:57,0.320s,PASSED
+,,,,,,
+Test Cases/Text,Firefox 56.0,,2018-11-16 03:51:57,2018-11-16 03:52:16,18.954s,PASSED
+openBrowser,Firefox 56.0,,2018-11-16 03:51:58,2018-11-16 03:52:03,5.745s,PASSED
+navigateToUrl,Firefox 56.0,1. Go to [Simple Form Demo] Screen,2018-11-16 03:52:03,2018-11-16 03:52:08,4.745s,PASSED
+waitForElementVisible,Firefox 56.0,,2018-11-16 03:52:08,2018-11-16 03:52:08,0.080s,PASSED
+verifyElementText,Firefox 56.0,2. Verify text [This would be your first example to start with Selenium.] with specified value,2018-11-16 03:52:08,2018-11-16 03:52:08,0.065s,PASSED
+com.database.DemoMySql.connectDB,Firefox 56.0,3. Verify text [This would be your first example to start with Selenium.] with result getting from database,2018-11-16 03:52:08,2018-11-16 03:52:13,5.119s,PASSED
+"Statement - queryResult = CustomKeywords.com.database.DemoMySql.executeQuery(""SELECT Description FROM Static_Content"")",Firefox 56.0,,2018-11-16 03:52:13,2018-11-16 03:52:14,0.417s,PASSED
+Statement - queryResult.next(),Firefox 56.0,,2018-11-16 03:52:14,2018-11-16 03:52:14,0.026s,PASSED
+Statement - valueFromDatabase = queryResult.getString(1),Firefox 56.0,,2018-11-16 03:52:14,2018-11-16 03:52:14,0.001s,PASSED
+Statement - println(valueFromDatabase),Firefox 56.0,,2018-11-16 03:52:14,2018-11-16 03:52:14,0.003s,PASSED
+verifyMatch,Firefox 56.0,,2018-11-16 03:52:14,2018-11-16 03:52:14,0.002s,PASSED
+com.database.DemoMySql.closeDatabaseConnection,Firefox 56.0,,2018-11-16 03:52:14,2018-11-16 03:52:14,0.004s,PASSED
+Statement - response = com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/SelEasy/GET),Firefox 56.0,4. Verify text [This would be your first example to start with Selenium.] with result getting from WS,2018-11-16 03:52:14,2018-11-16 03:52:14,0.014s,PASSED
+Statement - params = new java.util.ArrayList(),Firefox 56.0,,2018-11-16 03:52:14,2018-11-16 03:52:14,0.001s,PASSED
+"Statement - params.add(new com.kms.katalon.core.testobject.TestObjectProperty(upc, com.kms.katalon.core.testobject.ConditionType.EQUALS, 22369700000))",Firefox 56.0,,2018-11-16 03:52:14,2018-11-16 03:52:14,0.005s,PASSED
+Statement - response.setRestParameters(params),Firefox 56.0,,2018-11-16 03:52:14,2018-11-16 03:52:14,0.007s,PASSED
+Statement - headerparams = new java.util.ArrayList(),Firefox 56.0,,2018-11-16 03:52:14,2018-11-16 03:52:14,0.001s,PASSED
+"Statement - headerparams.add(new com.kms.katalon.core.testobject.TestObjectProperty(apikey, com.kms.katalon.core.testobject.ConditionType.EQUALS, l7xxad8578ca824c49d998247d31d4efabfb))",Firefox 56.0,,2018-11-16 03:52:14,2018-11-16 03:52:14,0.000s,PASSED
+Statement - response.setHttpHeaderProperties(headerparams),Firefox 56.0,,2018-11-16 03:52:14,2018-11-16 03:52:14,0.000s,PASSED
+Statement - result = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(response),Firefox 56.0,,2018-11-16 03:52:14,2018-11-16 03:52:16,2.243s,PASSED
+verifyElementPropertyValue,Firefox 56.0,,2018-11-16 03:52:16,2018-11-16 03:52:16,0.101s,PASSED

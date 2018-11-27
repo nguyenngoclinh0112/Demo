@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login DCM app</description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49408d71-150b-4a97-aa6a-e533a06f10cc</testCaseGuid>
+</TestCaseEntity>
