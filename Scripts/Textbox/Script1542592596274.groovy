@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 import java.sql.ResultSet as ResultSet
 
 WebUI.openBrowser('')
-
+//Test for commit and push code
 '1. Go to [Simple Form Demo] Screen'
 WebUI.navigateToUrl(url)
 
